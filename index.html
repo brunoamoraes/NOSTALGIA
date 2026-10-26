@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080b16" />
+  <meta name="description" content="BrunoVerse: música, filmes e séries através do passado, presente e futuro. Um universo pessoal de histórias e descobertas." />
+  <title>BrunoVerse | Meu universo de entretenimento</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/data.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div>
+  <header class="site-header" id="topo">
+    <div class="header-inner container">
+      <a href="#inicio" class="brand" aria-label="BrunoVerse — início">
+        <span class="brand-mark" aria-hidden="true">▶</span><span class="brand-text">BRUNO<span>VERSE</span><small>MÚSICA • FILMES • SÉRIES</small></span>
+      </a>
+      <nav id="menu" class="main-nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="#inicio">Início</a><a class="nav-link" href="#musicas">Músicas</a><a class="nav-link" href="#filmes">Filmes</a><a class="nav-link" href="#series">Séries</a><a class="nav-link" href="#timeline">Timeline</a>
+      </nav>
+      <div class="header-actions"><button class="icon-button search-trigger" id="open-search" aria-label="Abrir busca" title="Buscar conteúdos">⌕ <span>Buscar</span></button><button class="admin-button" id="admin-button" type="button">♙ <span>Área do Admin</span></button><button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">☰</button></div>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div><div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content"><div class="eyebrow"><span class="pulse"></span> UM UNIVERSO DE MEMÓRIAS E DESCOBERTAS</div><h1 id="hero-title"><span class="warm">Passado,</span> <span class="cool">Presente</span> e <span class="pink">Futuro</span><br>do meu entretenimento.</h1><p>Uma coleção pessoal de músicas, filmes e séries. Histórias que marcaram minha vida, favoritos de hoje e tudo que ainda quero descobrir.</p><div class="hero-buttons"><a class="btn btn-primary" href="#colecao">▶ &nbsp; Explorar coleção <span aria-hidden="true">→</span></a><a class="btn btn-outline" href="#timeline">◷ &nbsp; Ver timeline</a></div><div class="hero-stats"><span><strong>03</strong> universos</span><i></i><span><strong>07</strong> décadas</span><i></i><span><strong>∞</strong> histórias</span></div></div>
+      <div class="hero-side-note" aria-hidden="true">PLAY THE MEMORIES <span>✦</span></div>
+    </section>
+    <section class="container eras-section" id="eras" aria-label="Explore passado, presente e futuro">
+      <div class="era-card era-past" data-era="passado"><div class="era-bg"></div><div class="era-content"><span class="era-index">01 / MEMÓRIAS</span><h2>PASSADO</h2><strong>Clássicos que marcaram minha história.</strong><p>Os sons e as histórias que ficaram comigo.</p><button class="era-action" type="button" data-filter="passado">Revisitar o passado <span>→</span></button></div></div>
+      <div class="era-card era-present" data-era="presente"><div class="era-bg"></div><div class="era-content"><span class="era-index">02 / AGORA</span><h2>PRESENTE</h2><strong>O que me acompanha hoje.</strong><p>Minhas escolhas e descobertas do momento.</p><button class="era-action" type="button" data-filter="presente">Explorar o presente <span>→</span></button></div></div>
+      <div class="era-card era-future" data-era="futuro"><div class="era-bg"></div><div class="era-content"><span class="era-index">03 / DESCOBERTAS</span><h2>FUTURO</h2><strong>O que ainda quero viver.</strong><p>Minha lista de desejos e próximas descobertas.</p><button class="era-action" type="button" data-filter="futuro">Ver o futuro <span>→</span></button></div></div>
+    </section>
+    <section class="container collection" id="colecao" aria-labelledby="collection-title"><div class="collection-heading"><div><span class="overline">MINHA CURADORIA</span><h2 id="collection-title">Explore meu <span>universo</span></h2><p>Conteúdos demonstrativos para você conhecer a experiência do BrunoVerse.</p></div><div class="filter-buttons" role="group" aria-label="Filtrar por época"><button data-era-filter="todos" class="selected">Todos</button><button data-era-filter="passado">Passado</button><button data-era-filter="presente">Presente</button><button data-era-filter="futuro">Futuro</button></div></div>
+    <div class="media-section" id="musicas"><div class="section-title"><div><span class="section-icon music-icon">♫</span><div><h3>Músicas</h3><p>Álbuns, artistas e sons que me definem.</p></div></div><button class="section-more" type="button" data-category="musica">Ver todos <span>→</span></button></div><div class="card-grid" data-container="musica"></div></div>
+    <div class="media-section" id="filmes"><div class="section-title"><div><span class="section-icon film-icon">▦</span><div><h3>Filmes</h3><p>Grandes histórias, grandes emoções.</p></div></div><button class="section-more" type="button" data-category="filme">Ver todos <span>→</span></button></div><div class="card-grid" data-container="filme"></div></div>
+    <div class="media-section" id="series"><div class="section-title"><div><span class="section-icon tv-icon">▣</span><div><h3>Séries</h3><p>Personagens que ficam para sempre.</p></div></div><button class="section-more" type="button" data-category="serie">Ver todos <span>→</span></button></div><div class="card-grid" data-container="serie"></div></div>
+    <div id="empty-state" class="empty-state" hidden>Nenhum conteúdo encontrado para este filtro. Experimente outra época.</div>
+    </section>
+    <section class="container timeline-section" id="timeline"><div class="timeline-header"><div><span class="overline">VIAGEM NO TEMPO</span><h2>Minha <span>Timeline</span></h2><p>Uma jornada pelas décadas que moldam o meu universo pop.</p></div><span class="timeline-decor" aria-hidden="true">⌛</span></div><div class="timeline-track" aria-label="Décadas"><div class="decade" style="--decade:#ffba66"><span class="decade-dot"></span><strong>70s</strong><small>O começo das grandes histórias</small></div><div class="decade" style="--decade:#ff697f"><span class="decade-dot"></span><strong>80s</strong><small>A magia que nunca se apaga</small></div><div class="decade" style="--decade:#b186ff"><span class="decade-dot"></span><strong>90s</strong><small>Descobertas e novos mundos</small></div><div class="decade" style="--decade:#40bcff"><span class="decade-dot"></span><strong>2000s</strong><small>Expansão de horizontes</small></div><div class="decade" style="--decade:#21e3d3"><span class="decade-dot"></span><strong>2010s</strong><small>Streaming e uma nova era</small></div><div class="decade" style="--decade:#fa5be3"><span class="decade-dot"></span><strong>2020s</strong><small>Mais histórias para viver</small></div><div class="decade" style="--decade:#e4deff"><span class="decade-dot"></span><strong>∞</strong><small>O melhor ainda está por vir</small></div></div></section>
+    <section class="container about-panel"><span class="about-symbol" aria-hidden="true">✦</span><div><span class="overline">SOBRE ESTE PROJETO</span><h2>Boas histórias merecem ser lembradas.</h2><p>O BrunoVerse é meu espaço para preservar memórias e compartilhar paixões. Este é só o começo de uma coleção que vai crescer com o tempo.</p></div><a href="#inicio" class="btn btn-outline">Voltar ao início ↑</a></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a href="#inicio" class="footer-brand">▶ BRUNO<span>VERSE</span></a><p>O passado inspira. O presente conecta. O futuro surpreende.</p><span>© <span id="year"></span> BrunoVerse · Feito com ♡</span></div></footer>
+  <dialog id="detail-dialog" class="site-dialog"><button type="button" class="dialog-close" data-close aria-label="Fechar janela">✕</button><div id="detail-content"></div></dialog>
+  <dialog id="search-dialog" class="site-dialog search-dialog"><button type="button" class="dialog-close" data-close aria-label="Fechar busca">✕</button><h2>Explorar o BrunoVerse</h2><label for="search-field">Busque por título, artista, gênero ou descrição</label><input id="search-field" type="search" placeholder="Ex.: neon, aventura, mistério..." autocomplete="off" /><div id="search-results" aria-live="polite"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

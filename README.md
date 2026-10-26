@@ -1,12 +1,16 @@
+# BrunoVerse — Etapa 1
 
-🎬 Séries • 🎥 Filmes • 🎶 Música
+Site pessoal público de música, filmes e séries, inspirado no conceito **Universo Híbrido**: nostalgia + experiência moderna.
 
-Este blog reúne conteúdos sobre entretenimento e cultura, organizado em três grandes temas:
 
-- **Séries:** análises, recomendações e impressões pessoais  
-- **Filmes:** comentários, listas e destaques do cinema  
-- **Música:** artistas, bandas, álbuns e sons que marcaram momentos  
+## Estrutura
 
-Um espaço feito para compartilhar ideias, opiniões e descobertas, sempre com uma abordagem leve, pessoal e apaixonada por boas histórias e boas músicas.
+- `index.html`: página inicial e componentes de interface.
+- `css/style.css`: identidade visual, animações e responsividade.
+- `js/data.js`: **18 registros fictícios** de demonstração.
+- `js/app.js`: busca, filtros, modais, menu e interações.
+- `assets/images/`: recortes visuais derivados do mockup aprovado do projeto.
+- `assets/favicon.svg`: ícone do site.
 
-Aguardem :) 
+
+
