@@ -1,1 +1,44 @@
-{}
+{
+  "7": {
+    "image": "https://image.tmdb.org/t/p/w500/3pJwSxO8L2MOGXGaJIOAAq35LAP.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/movie/8467",
+    "synopsis": "Dois amigos debilóides vão para Aspen, no estado do Colorado, para tentar devolver uma maleta esquecida pela passageira da limusine que um deles estava dirigindo para o aeroporto. Sem saber que na mala havia uma quantia enorme de dinheiro, que serviria para pagar o resgate de um sequestro, os dois acabam sendo perseguidos pela polícia e por assassinos profissionais.",
+    "credit": "Dados e imagem: TMDb"
+  },
+  "8": {
+    "image": "https://image.tmdb.org/t/p/w500/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/movie/603",
+    "synopsis": "O jovem programador Thomas Anderson é atormentado por estranhos pesadelos em que está sempre conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a desconfiar da realidade. Thomas conhece os misteriosos Morpheus e Trinity e descobre que é vítima de um sistema inteligente e artificial chamado Matrix, que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia.",
+    "credit": "Dados e imagem: TMDb"
+  },
+  "9": {
+    "image": "https://image.tmdb.org/t/p/w500/686F0CEPmI4ZXjFbWtIHQOBwnfI.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/movie/862",
+    "synopsis": "Buzz Lightyear é o novo e sofisticado astronauta de brinquedo do garoto Andy. Buzz não imaginava que encontraria um rival: Woody, um cowboy de brinquedo que, dominado pelo ciúme, acredita ter perdido um lugar precioso no coração do seu dono. Os dois brinquedos vivem brigando até que vão parar nas garras do vizinho, um verdadeiro destruidor de brinquedos. Agora, mais do que nunca, Buzz e Woody precisam precisam se unir para escapar do perigo. Com a ajuda de seus amigos da caixa de brinquedos, eles vão viver uma incrível aventura.",
+    "credit": "Dados e imagem: TMDb"
+  },
+  "13": {
+    "image": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/tv/1668",
+    "synopsis": "Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York.",
+    "credit": "Dados e imagem: TMDb"
+  },
+  "14": {
+    "image": "https://image.tmdb.org/t/p/w500/bA4XkQR5VAuiszhbfDhR0siZgiI.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/tv/4087",
+    "synopsis": "Dana Scully e Fox Mulder são dois agentes do FBI que investigam casos não solucionados, estranhos e inexplicáveis que envolvem fenômenos paranormais.",
+    "credit": "Dados e imagem: TMDb"
+  },
+  "15": {
+    "image": "https://image.tmdb.org/t/p/w500/arT93dBemanftfWTcf9I0JRIlxU.jpg",
+    "source": "TMDb",
+    "sourceUrl": "https://www.themoviedb.org/tv/2327",
+    "synopsis": "Para o grupo de adolescentes, formado por Dawson, Joey, Pacey e Jen, passar para o \"mundo\" adulto não poderia ser mais difícil. Em Capeside, uma pequena cidade do litoral perto de Boston, eles convivem com os mais diferentes tipos de problemas no cotidiano, o que os fazem crescer e entender melhor o mundo em que vivem. Agora cada um precisa decidir o rumo de suas vidas. Não é nada fácil, mas, com amor e amizade, esse caminho será mais fácil de encarar.",
+    "credit": "Dados e imagem: TMDb"
+  }
+}
